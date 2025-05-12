@@ -1,6 +1,26 @@
-@Tutorial9_HostAddress = http://localhost:5027
+@Test1B_HostAddress = http://localhost:5027
 
-GET {{Tutorial9_HostAddress}}/weatherforecast/
+### GET: /api/visits/1                 -> 200 OK
+GET {{Tutorial9_HostAddress}}/api/visits/1
 Accept: application/json
 
-###
+### POST: /api/visits                  -> 201 Created
+POST {{Test1B_HostAddress}}/api/visits
+Accept: application/json
+Content-Type: application/json
+
+{
+  "visitId": 10,
+  "clientId": 1,
+  "mechanicLicenceNumber": "MECH-20230001",
+  "services": [
+    {
+      "serviceName": "Oil Change",
+      "serviceFee": 110.00
+    },
+    {
+      "serviceName": "Brake Repair",
+      "serviceFee": 280.00
+    }
+  ]
+}

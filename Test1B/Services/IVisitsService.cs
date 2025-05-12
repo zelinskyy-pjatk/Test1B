@@ -1,6 +1,9 @@
-﻿namespace Test1B.Services;
+﻿using Test1B.DTOs;
+
+namespace Test1B.Services;
 
 public interface IVisitsService
 {
-    Task GetVisitByIdAsync(int id);    
+    Task<VisitResponseDTO> GetVisitByIdAsync(int id);
+    Task<int> CreateNewVisitAsync(VisitRequestDTO requestDto);
 }

@@ -7,16 +7,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6afadbe7-d046-4c69-a1eb-bd6066168623" name="Changes" comment="" />
+    <list default="true" id="6afadbe7-d046-4c69-a1eb-bd6066168623" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/Test1B/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test1B/DTOs/ClientDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test1B/DTOs/MechanicDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test1B/DTOs/VisitRequestDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test1B/DTOs/VisitResponseDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test1B/DTOs/VisitServiceDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test1B/Exceptions/ConflictException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test1B/Exceptions/NotFoundException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tutorial9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tutorial9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1B/Controllers/VisitsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1B/Controllers/VisitsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1B/Model/Animal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1B/Model/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1B/Model/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1B/Model/Mechanic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1B/Model/Mechanic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1B/Model/Service.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1B/Model/Service.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1B/Model/Visit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1B/Model/Visit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1B/Model/Visit_Service.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1B/Model/Visit_Service.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1B/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1B/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1B/Services/DbService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1B/Services/IDbService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1B/Services/IVisitsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1B/Services/IVisitsService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1B/Services/VisitsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test1B/Services/VisitsService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1B/Tutorial9.http" beforeDir="false" afterPath="$PROJECT_DIR$/Test1B/Tutorial9.http" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "zelinskyy-pjatk"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/zelinskyy-pjatk/Test1B.git",
+    "accountId": "c444870d-d3b8-4d39-a551-ff97e51945cc"
+  }
+}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2wzXVUipXIu3N25jqVhtUb3OVoN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,6 +66,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/s31639/Desktop/Test1B/Tutorial9.sln",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -58,16 +101,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747045399758</updated>
-      <workItem from="1747045400804" duration="649000" />
+      <workItem from="1747045400804" duration="4883000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1747046148530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747046148530</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
